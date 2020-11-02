@@ -1,0 +1,24 @@
+type Cart {
+  user_id: ID!
+  cart: [Product!]
+}
+
+type Mutation {
+  addProductToCart(data: addProductToCartInput!): Product
+  deleteProductToCart(data: deleteProductToCartInput!): Product
+}
+
+input addProductToCartInput {
+  user_id: ID!
+  id: ID!
+  color: String!
+  img: String!
+  header: String!
+  meta: String!
+  price: Int!
+}
+
+input deleteProductToCartInput {
+  user_id: ID!
+  id: ID!
+}

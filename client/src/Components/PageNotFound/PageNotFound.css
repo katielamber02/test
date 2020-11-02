@@ -1,0 +1,32 @@
+.pagenotfound-text {
+  margin: 0;
+  font-family: 'AvenirNext';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #484848;
+  margin-top: 100px !important;
+}
+
+.pagenotfound-description {
+  margin: 0;
+  margin-top: 20px;
+  font-family: 'AvenirNext';
+  font-size: 24px;
+  font-weight: 500;
+  color: #7b7b7b;
+  line-height: 32px;
+}
+
+.pagenoutfound-our-categories {
+  margin: 0;
+  margin-top: 24px;
+  font-family: 'AvenirNext';
+  font-size: 26px;
+  font-weight: 600;
+  color: #484848;
+}
+
+.pagenotfound-button-group {
+  margin-top: 30px;
+}

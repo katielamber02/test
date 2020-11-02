@@ -1,0 +1,16 @@
+.welcome {
+  font-size: 4.5rem !important;
+  font-family: 'Montserrat';
+}
+
+.home-hr {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.home {
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex !important;
+  height: 90% !important;
+}

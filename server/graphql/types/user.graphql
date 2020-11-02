@@ -1,0 +1,50 @@
+scalar Date
+scalar Int
+scalar Boolean
+
+type Query {
+  user(id: ID!): User!
+  users: [User!]
+  activeUser: User!
+}
+
+type User {
+  id: ID!
+  name: String!
+  surname: String!
+  username: String!
+  email: String!
+  password: String!
+  createdAt: Date!
+  admin: Boolean!
+  cart: Cart!
+}
+
+type Mutation {
+  register(data: registerInput!): Token!
+  login(data: loginInput!): Token!
+  update(data: updateInput!): User
+}
+
+input registerInput {
+  name: String!
+  surname: String!
+  username: String!
+  email: String!
+  password: String!
+  admin: Boolean
+}
+
+input loginInput {
+  username: String!
+  password: String!
+}
+
+input updateInput {
+  id: ID!
+  name: String
+  surname: String
+  username: String
+  email: String
+  password: String
+}

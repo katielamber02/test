@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.App,
+#root,
+html,
+body {
+  height: 100%;
+  font-family: 'Poppins', monospace;
+  line-height: 25px;
+}
+
+input,
+button,
+textarea {
+  font-family: 'Poppins' !important;
+}
+
+.shopping-cart-list-item-link {
+  color: mediumblue !important;
+  text-decoration: underline;
+}

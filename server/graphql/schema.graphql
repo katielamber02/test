@@ -1,0 +1,15 @@
+# import Mutation from './types/user.graphql';
+# import Query from './types/user.graphql';
+
+# import Mutation from './types/product.graphql';
+# import Query from './types/product.graphql';
+
+# import Mutation from './types/comment.graphql';
+# import Query from './types/comment.graphql';
+
+# import Mutation from './types/cart.graphql';
+
+# import Cart from './types/cart.graphql';
+# import Token from './types/token.graphql';
+# import Comment from './types/comment.graphql';
+# import User from './types/user.graphql';

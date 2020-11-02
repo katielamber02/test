@@ -1,0 +1,12 @@
+.register-card-border-dark {
+  border: 1px solid black !important;
+  margin-top: 50px !important;
+}
+
+.register-divider {
+  border: 0.7px solid black !important;
+}
+
+.register-container {
+  font-family: 'Segoe UI';
+}

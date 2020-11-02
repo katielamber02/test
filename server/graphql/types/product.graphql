@@ -1,0 +1,43 @@
+scalar Int
+
+type Query {
+  product(id: ID!): Product!
+  products: [Product!]
+}
+
+type Product {
+  id: ID!
+  color: String!
+  img: String!
+  header: String!
+  meta: String!
+  price: Int!
+  comments: [Comment!]
+}
+
+type Mutation {
+  newProduct(data: newProductInput!): Product!
+  deleteProduct(data: deleteProductInput!): Product!
+  updateProduct(data: updateProductInput!): Product!
+}
+
+input newProductInput {
+  color: String!
+  img: String!
+  header: String!
+  meta: String!
+  price: Int!
+}
+
+input deleteProductInput {
+  id: ID!
+}
+
+input updateProductInput {
+  id: ID!
+  color: String
+  img: String
+  header: String
+  meta: String
+  price: Int
+}
